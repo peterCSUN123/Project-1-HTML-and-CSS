@@ -79,6 +79,9 @@ video{
 .santa-monica-content{
     text-align: center;
 }
+.santa-monica-content p{
+    font-size: 20px;
+}
 .malibu-content{
     text-align: center;
     padding: 10px;
