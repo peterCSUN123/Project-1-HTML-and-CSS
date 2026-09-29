@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>favorite</title>
+    <title>Favorite</title>
     <link rel="stylesheet" href="style-sheet.css">
 </head>
 <body>
@@ -58,15 +58,18 @@
             <p>Is this your first time visiting my website?</p>
 
             <input type="radio"
+                id="first-visit-yes"
                 name="first-visit"
                 required>
-            <label>Yes</label>
+            <label for="first-visit-yes">Yes</label>
 
             <input type="radio"
+                id="first-visit-no"
                 name="first-visit">
-            <label>No</label>
+            <label for="first-visit-no">No</label>
 
             <!-- The multiple attribute allows more than one option to be selected. -->
+            <!--You need to drag to select more than one-->
             <label for="favorite-places">
                 Which destinations do you like? Select multiple if you want:
             </label>
@@ -77,6 +80,7 @@
                 <option value="new-york">New York</option>
                 <option value="malibu">Malibu Pier</option>
                 <option value="santa-monica">Santa Monica</option>
+                <!--Options is used to have options for the form-->
             </select>
 
         </form>
