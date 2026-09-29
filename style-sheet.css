@@ -35,11 +35,11 @@ footer{
     text-align: center;
 }
 
-#home-text p{
-    font-size: 50px;
+.home-text p{
+    font-size: 20px;
 }
-#home-text h2{
-    font-size: 60px;
+.home-text h2{
+    font-size: 30px;
 }
 
 .nyc-image{
@@ -57,7 +57,7 @@ img {
     padding: 20px;
 }
 #home-image{
-    width: 335px;
+    width: 350px;
     height: auto;
 }
 .home-text{
