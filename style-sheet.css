@@ -1,0 +1,49 @@
+body{
+    margin: 0px;
+    background-color: hsl(0, 0%, 0%);
+}
+main{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+h1{
+    text-align: center;
+    color: hsl(0, 0%, 100%);
+}
+.navbar ul{
+    list-style-type: none;
+    background-color: hsl(0, 0%, 11%);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+}
+.navbar a{
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+}
+.navbar a:hover{
+    background-color: hsl(38, 24%, 80%);
+}
+.navbar li{
+    float: left;
+}
+#name{
+    text-align: right;
+    
+}
+p{
+    color: white;
+    text-align: center;
+    font-size: 50px;
+}
+.nyc-image{
+    height: 500px;
+    margin: 20px;
+}
+img {
+    justify-content: center;
+    align-items: center;
+}
