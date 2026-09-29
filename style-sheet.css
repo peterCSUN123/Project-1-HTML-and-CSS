@@ -10,6 +10,7 @@ main{
 }
 h1{
     text-align: center;
+    font-size: 35px;
 }
 .navbar ul{
     list-style-type: none;
@@ -31,21 +32,30 @@ h1{
 .navbar li{
     float: left; /*This puts the list to the left on the navigation bar*/
 }
-footer{
+.footer p{
     color: white;
     text-align: center;
+    font-size: 14px;
+}
+footer{
+    margin: 20px;
 }
 
 img {
     width: 350px;
     height: auto;
 }
+p{
+    font-size: 20px;
+}
+h2{
+    font-size: 30px;
+}
 .home-text p{
     font-size: 20px;
     text-align: justify;
 }
 .home-text h2{
-    font-size: 30px;
     text-align: center;
 }
 
@@ -54,8 +64,11 @@ img {
 }
 
 .about-me p{
-    font-size: 13px;
+    font-size: 20px;
     text-align: justify;
+}
+.about-me h3{
+    font-size: 25px;
 }
 
 .home-content{
@@ -79,9 +92,6 @@ video{
 .santa-monica-content{
     text-align: center;
 }
-.santa-monica-content p{
-    font-size: 20px;
-}
 .malibu-content{
     text-align: center;
     padding: 10px;
@@ -92,3 +102,57 @@ video{
 .did-you-know{
     text-align: center;
 }
+
+table,
+th,
+td {
+    border: 2px solid white;
+    border-collapse: collapse;
+}
+table {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+}
+#h2-favorite{
+    text-align: center;
+}
+
+.visitor-form {
+    width: 90%;
+    max-width: 600px;
+    margin: 40px auto;
+    padding: 25px;
+    border: 2px solid white;
+    border-radius: 10px;
+    color: white;
+}
+
+.visitor-form h2 {
+    text-align: center;
+}
+
+.visitor-form label,
+.visitor-form p {
+    display: block;
+    margin-top: 15px;
+}
+
+.visitor-form input[type="radio"] + label {
+    display: inline;
+    margin-right: 20px;
+}
+
+.visitor-form input[type="date"],
+.visitor-form select {
+    display: block;
+    width: 100%;
+    margin-top: 8px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.visitor-form select {
+    min-height: 120px;
+}
+

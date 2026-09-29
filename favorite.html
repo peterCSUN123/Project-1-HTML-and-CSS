@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>favorite</title>
+    <link rel="stylesheet" href="style-sheet.css">
+</head>
+<body>
+    <header>
+        <h1>Peter&apos;s Travel Gallery</h1>
+        <nav class="navbar"> <!--This is the navigation bar its located on top of the pages.
+                                I am using this to go between the pages in my website -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="santa-monica.html">Santa Monica</a></li>
+                <li><a href="malibu.html">Malibu</a></li>
+                <li><a href="new-york.html">New York</a></li>
+                <li><a href="favorite.html">Favorite</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h2 id="h2-favorite">Favorite Photos</h2>
+    <table>
+    <tbody> <!--The tbody element groups the main content of the table containing my favorite photos-->
+        <tr>
+            <td>
+                <img src="./images/TER4147.jpg">
+            </td>
+
+            <td>
+                <img src="./images/TAE4903.JPG">
+            </td>
+        </tr>
+
+        <tr>
+            <td>
+                <img src="./images/TAE4939.JPG">
+            </td>
+
+            <td>
+                <img src="./images/DSC1596.jpg">
+            </td>
+        </tr>
+    </tbody>
+    </table>
+    
+
+    <section class="visitor-form">
+        <h2>Visitor Information</h2>
+
+        <form>
+            <!-- The date input allows the visitor to select the date of their visit. -->
+            <label for="visit-date">When are you visiting this website?</label>
+            <input type="date" id="visit-date" name="visit-date" required>
+
+            <!-- Radio inputs allow the visitor to choose only one answer. -->
+            <p>Is this your first time visiting my website?</p>
+
+            <input type="radio"
+                name="first-visit"
+                required>
+            <label>Yes</label>
+
+            <input type="radio"
+                name="first-visit">
+            <label>No</label>
+
+            <!-- The multiple attribute allows more than one option to be selected. -->
+            <label for="favorite-places">
+                Which destinations do you like? Select multiple if you want:
+            </label>
+
+            <select id="favorite-places"
+                    name="favorite-places"
+                    multiple>
+                <option value="new-york">New York</option>
+                <option value="malibu">Malibu Pier</option>
+                <option value="santa-monica">Santa Monica</option>
+            </select>
+
+        </form>
+    </section>
+
+
+    <footer class="footer">
+        <p>peter-john.sta-ana.984@my.csun.edu</p>
+        <p>&copy;2026 Peter&apos;s Travel Gallery</p>
+    </footer>
+</body>
+</html>
