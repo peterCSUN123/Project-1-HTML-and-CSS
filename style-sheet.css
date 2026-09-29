@@ -2,6 +2,7 @@ body{
     margin: 0px;
     background-color: hsl(0, 0%, 0%);
     color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 main{
     margin-left: 20px;
@@ -67,4 +68,10 @@ img {
 video{
     display: block;
     margin: 20px auto;
+}
+.video p{
+    text-align: center;
+}
+.santa-monica-content{
+    text-align: center;
 }
