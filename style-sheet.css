@@ -25,7 +25,7 @@ h1{
     display: block;
     text-align: center;
 }
-.navbar a:hover{
+.navbar a:hover{ /*This sets the color when you hover on the navigation bar*/
     background-color: hsl(38, 24%, 80%);
 }
 .navbar li{
@@ -36,31 +36,35 @@ footer{
     text-align: center;
 }
 
+img {
+    width: 350px;
+    height: auto;
+}
 .home-text p{
     font-size: 20px;
+    text-align: justify;
 }
 .home-text h2{
     font-size: 30px;
+    text-align: center;
 }
 
-.nyc-image{
-    height: 500px;
-    margin: 20px;
+.about-me{
+    margin: 20;
 }
-img {
-    justify-content: center;
-    align-items: center;
+
+.about-me p{
+    font-size: 13px;
+    text-align: justify;
 }
+
 .home-content{
     display: flex;
     align-items: center;
     gap: 40px;
     padding: 20px;
 }
-#home-image{
-    width: 350px;
-    height: auto;
-}
+
 .home-text{
     flex: 1;
     text-align: left;
@@ -73,5 +77,15 @@ video{
     text-align: center;
 }
 .santa-monica-content{
+    text-align: center;
+}
+.malibu-content{
+    text-align: center;
+    padding: 10px;
+}
+.nyc-content{
+    text-align: center;
+}
+.did-you-know{
     text-align: center;
 }
